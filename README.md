@@ -8,5 +8,5 @@ docker run -it ahulyk/android-sdk bash
 
 ### Build the project in current directory
 ```
-docker run -it -v $(pwd):/home/user/project -w /home/user/project -u $(id -u):$(id -g) ahulyk/android-sdk ./gradlew build
+docker run -it -v $(pwd):/home/user/project -w /home/user/project ahulyk/android-sdk ./gradlew clean assembly
 ```
