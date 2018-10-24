@@ -10,7 +10,7 @@ RUN dpkg --add-architecture i386 \
  && rm -rf /var/lib/apt/lists /var/cache/apt
 
 # Set up environment variables
-ENV ANDROID_HOME="/home/user/android-sdk-linux" \
+ENV ANDROID_HOME="/home/user/android-sdk" \
     SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
     
 # Create a non-root user
